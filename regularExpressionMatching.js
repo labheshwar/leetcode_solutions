@@ -1,5 +1,8 @@
 var isMatch = function(s, p) {
     var reg = new RegExp('^' + p + '$');
-    return reg.test(s);
-    
+    return reg.test(s);   
 }
+
+console.log(isMatch('aa', 'a')); 
+console.log(isMatch('aa', 'a*')); 
+console.log(isMatch('ab', '.*')); 
