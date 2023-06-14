@@ -12,12 +12,6 @@ var findSmallestSetOfVertices = function (n, edges) {
   return ans;
 };
 
-// Time Complexity: O(N + E)
-
-// Space Complexity: O(N + E)
-
-// N: number of vertices
-
 console.log(
   findSmallestSetOfVertices(6, [
     [0, 1],
